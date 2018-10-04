@@ -213,7 +213,7 @@ h6 {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
-.callout {
+.callout-sns {
   padding: 15rem 0;
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/switchnshakes_promo.png");
   background-position: center center;
@@ -221,7 +221,22 @@ h6 {
   background-size: cover;
 }
 
-.callout h2 {
+.callout-360 {
+  padding: 15rem 0;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/switchnshakes_promo.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.callout-sns h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  display: block;
+  max-width: 30rem;
+}
+
+.callout-360 h2 {
   font-size: 3.5rem;
   font-weight: 700;
   display: block;
