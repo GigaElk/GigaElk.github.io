@@ -1,4 +1,4 @@
 This is a Brave Rewards publisher verification file.
 
 Domain: gigaelk.com
-Token: 5c7e3f80af5e1f9330c495826fd0e404e2c1816e9f4ba82913c7f120fac9a5fa
+Token: 24468682a7e33a8078cbc191cecc2ecc759d682f65871358432953f18c2ad18b
