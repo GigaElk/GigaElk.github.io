@@ -247,6 +247,9 @@
               <i class="icon-social-youtube"></i>
             </a>
           </li>
+          <li class="list-inline-item">
+            <div id="stomt_create"></div>
+          </li>
         </ul>
         <p class="text-muted small mb-0">Copyright &copy; GigaElk Software 2018</p>
       </div>
@@ -267,12 +270,8 @@
     <!-- Custom scripts for this template -->
     <script src="js/stylish-portfolio.min.js"></script>
 
-    <!-- Start of Announcefly Code -->
-    <script src="https://app.announcefly.com/newsfeedrunner"></script>
-    <link rel="stylesheet" href="https://app.announcefly.com/newsfeedstyle">
+    <!-- Start of STOMT Code -->
     <script>
-      window.onload = () => {initChangelog("Hot-Button","1588034017922x497507988633026560")}
-
       (function(w, d, n, r, t, s){
         w.Stomt = w.Stomt||[];
         t = d.createElement(n);
@@ -282,7 +281,15 @@
         s.parentNode.insertBefore(t,s);
       })(window, document, 'script', 'https://www.stomt.com/widget.js');
       Stomt.push(['addTab', {appId: 'vIqJx6x1y8D8vk9sVKN2gClDf'}]);
-      Stomt.push(['addCreate', {appId: 'vIqJx6x1y8D8vk9sVKN2gClDf'}]);
+      //Stomt.push(['addCreate', {appId: 'vIqJx6x1y8D8vk9sVKN2gClDf'}]);
+    </script>
+    <!-- End of STOMT Code -->
+
+    <!-- Start of Announcefly Code -->
+    <script src="https://app.announcefly.com/newsfeedrunner"></script>
+    <link rel="stylesheet" href="https://app.announcefly.com/newsfeedstyle">
+    <script>
+      window.onload = () => { initChangelog("Hot-Button","1588034017922x497507988633026560") }
     </script>
     <!-- End of Announcefly Code -->
   </body>
