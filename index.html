@@ -274,12 +274,19 @@
     <script src="https://app.announcefly.com/newsfeedrunner"></script>
     <link rel="stylesheet" href="https://app.announcefly.com/newsfeedstyle">
     <script>
-          window.onload = () => {       initChangelog("Hot-Button","1588034017922x497507988633026560")
-                                }
+      window.onload = () => {initChangelog("Hot-Button","1588034017922x497507988633026560")}
 
+      (function(w, d, n, r, t, s){
+        w.Stomt = w.Stomt||[];
+        t = d.createElement(n);
+        s = d.getElementsByTagName(n)[0];
+        t.async=1;
+        t.src=r;
+        s.parentNode.insertBefore(t,s);
+      })(window, document, 'script', 'https://www.stomt.com/widget.js');
       Stomt.push(['addTab', {appId: 'vIqJx6x1y8D8vk9sVKN2gClDf'}]);
       Stomt.push(['addCreate', {appId: 'vIqJx6x1y8D8vk9sVKN2gClDf'}]);
-        </script>
+    </script>
     <!-- End of Announcefly Code -->
   </body>
 
